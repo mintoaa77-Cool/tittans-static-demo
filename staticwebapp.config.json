@@ -1,0 +1,63 @@
+{
+  "routes": [
+    {
+      "route": "/about.html",
+      "redirect": "/about",
+      "statusCode": 301
+    },
+    {
+      "route": "/about",
+      "rewrite": "/about.html"
+    },
+    {
+      "route": "/wellbeing.html",
+      "redirect": "/wellbeing",
+      "statusCode": 301
+    },
+    {
+      "route": "/wellbeing",
+      "rewrite": "/wellbeing.html"
+    },
+    {
+      "route": "/vision.html",
+      "redirect": "/vision",
+      "statusCode": 301
+    },
+    {
+      "route": "/vision",
+      "rewrite": "/vision.html"
+    },
+    {
+      "route": "/community.html",
+      "redirect": "/community",
+      "statusCode": 301
+    },
+    {
+      "route": "/community",
+      "rewrite": "/community.html"
+    },
+    {
+      "route": "/gallery.html",
+      "redirect": "/gallery",
+      "statusCode": 301
+    },
+    {
+      "route": "/gallery",
+      "rewrite": "/gallery.html"
+    },
+    {
+      "route": "/contact.html",
+      "redirect": "/contact",
+      "statusCode": 301
+    },
+    {
+      "route": "/contact",
+      "rewrite": "/contact.html"
+    }
+  ],
+  "responseOverrides": {
+    "404": {
+      "rewrite": "/index.html"
+    }
+  }
+}
