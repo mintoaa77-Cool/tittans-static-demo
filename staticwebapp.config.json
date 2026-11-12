@@ -53,6 +53,15 @@
     {
       "route": "/contact",
       "rewrite": "/contact.html"
+    },
+    {
+      "route": "/privacy.html",
+      "redirect": "/privacy",
+      "statusCode": 301
+    },
+    {
+      "route": "/privacy",
+      "rewrite": "/privacy.html"
     }
   ],
   "responseOverrides": {
